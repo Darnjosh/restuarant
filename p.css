@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 10px black;
+    height: 70vh;
+    padding: 15px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.p{
+    margin-bottom: 20px;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    border-radius: 20px;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
